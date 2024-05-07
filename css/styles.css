@@ -452,11 +452,7 @@ body {
   color: #ffffff;
   margin-bottom: 16px;
 }
-.conteiner-submit {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 .subscribe-form-input {
   width: 264px;
   height: 40px;
@@ -488,10 +484,14 @@ body {
   color: #fff;
   background: #4d5ae5;
   border: none;
+  margin-left: 24px;
 }
 .subscribe-form-submit:focus,
 .subscribe-form-submit:hover {
   background-color: #31d0aa;
+}
+.foto-icon-submit {
+  margin-left: 16px;
 }
 
 /* backdrop */
