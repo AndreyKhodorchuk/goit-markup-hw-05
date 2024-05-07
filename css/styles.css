@@ -653,9 +653,9 @@ body {
   margin-bottom: 24px;
 }
 .input-checkbox:checked + .checkbox-privacy .costum-checkbox {
-  background-color: #404bbf;
   fill: #f4f4fd;
   border: none;
+  background-color: #404bbf;
 }
 .input-checkbox:focus + .checkbox-privacy .costum-checkbox {
   outline: 2px solid rgb(0, 0, 255);
