@@ -553,16 +553,16 @@ body {
 }
 .icon-close:hover,
 .icon-close:focus {
-  fill: #ffffff;
-  border: none;
-  background: #404bbf;
+  background-color: #404bbf;
 }
 .foto-icon-close {
   fill: #2e2f42;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.foto-icon-close:hover,
-.foto-icon-close:focus {
+.icon-close:hover > .foto-icon-close {
+  fill: #ffffff;
+}
+.icon-close:focus > .foto-icon-close {
   fill: #ffffff;
 }
 .data-description {
