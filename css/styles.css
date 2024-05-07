@@ -476,6 +476,7 @@ body {
   color: #ffffff;
 }
 .subscribe-form-submit {
+  font-weight: 500;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -530,36 +531,41 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-close {
+  display: flex;
   position: absolute;
   top: 24px;
   right: 24px;
   padding: 0;
-  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   border-color: transparent;
-  border-radius: 100%;
-  fill: #e7e9fc;
   stroke-width: 1px;
-  stroke: rgba(0, 0, 0, 0.1);
   width: 24px;
   height: 24px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   justify-content: center;
   align-items: center;
+  border-radius: 50%;
+  background-color: #e7e9fc;
 }
 .icon-close:hover,
 .icon-close:focus {
-  fill: #404bbf;
+  background-color: #404bbf;
+  border: none;
 }
 .foto-icon-close {
   fill: #2e2f42;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .foto-icon-close:hover,
 .foto-icon-close:focus {
-  fill: #fff;
+  fill: #ffffff;
 }
 .data-description {
+  font-weight: 500;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
