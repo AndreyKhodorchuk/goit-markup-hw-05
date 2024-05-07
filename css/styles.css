@@ -520,7 +520,7 @@ body {
   visibility: visible;
 }
 .modal {
-  padding: 24px;
+  padding: 72px 24px 24px 24px;
   width: 408px;
   min-height: 584px;
   border-radius: 4px;
@@ -536,25 +536,25 @@ body {
 .icon-close {
   display: flex;
   position: absolute;
+  width: 24px;
+  height: 24px;
   top: 24px;
   right: 24px;
   padding: 0;
-  border: 1px solid rgba(0, 0, 0, 0.1);
   border-color: transparent;
   stroke-width: 1px;
-  width: 24px;
-  height: 24px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   justify-content: center;
   align-items: center;
   border-radius: 50%;
   background-color: #e7e9fc;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 .icon-close:hover,
 .icon-close:focus {
-  background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
 .foto-icon-close {
   fill: #2e2f42;
@@ -570,8 +570,8 @@ body {
   text-align: center;
   color: #2e2f42;
   max-width: 360px;
-  margin-top: 72px;
   margin-bottom: 16px;
+  line-height: 1.5;
 }
 .field-data {
   margin-bottom: 8px;
@@ -583,6 +583,7 @@ body {
   letter-spacing: 0.04em;
   color: #8e8f99;
   margin-top: 4px;
+  margin-bottom: 4px;
 }
 .input-data {
   width: 100%;
@@ -591,7 +592,8 @@ body {
   border-radius: 4px;
   padding-left: 38px;
   background-color: transparent;
-  transition: border-clor 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  outline: transparent;
 }
 .input-data:focus {
   border: 1px solid #4d5ae5;
@@ -606,7 +608,7 @@ body {
   height: 12px;
   position: absolute;
   top: 50%;
-  left: 19px;
+  left: 16px;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
