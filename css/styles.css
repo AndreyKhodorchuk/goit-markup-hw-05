@@ -553,9 +553,9 @@ body {
 }
 .icon-close:hover,
 .icon-close:focus {
-  fill: #ffffff;
+  fill: #fff;
   border: none;
-  background-color: #404bbf;
+  background: #404bbf;
 }
 .foto-icon-close {
   fill: #2e2f42;
@@ -702,8 +702,4 @@ body {
   border-radius: 4px;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.send-buttom:focus,
-.send-buttom:hover {
-  fill: #ffffff;
 }
