@@ -452,7 +452,9 @@ body {
   color: #ffffff;
   margin-bottom: 16px;
 }
-
+.conteiner-submit {
+  display: flex;
+}
 .subscribe-form-input {
   width: 264px;
   height: 40px;
