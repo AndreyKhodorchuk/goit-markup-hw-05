@@ -553,7 +553,7 @@ body {
 }
 .icon-close:hover,
 .icon-close:focus {
-  fill: #fff;
+  fill: #ffffff;
   border: none;
   background: #404bbf;
 }
@@ -563,7 +563,7 @@ body {
 }
 .foto-icon-close:hover,
 .foto-icon-close:focus {
-  fill: #ffffff;
+  fill: #fff;
 }
 .data-description {
   font-weight: 500;
