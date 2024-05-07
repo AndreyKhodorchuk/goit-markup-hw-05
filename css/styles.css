@@ -553,8 +553,8 @@ body {
 }
 .icon-close:hover,
 .icon-close:focus {
-  border: none;
   fill: #ffffff;
+  border: none;
   background-color: #404bbf;
 }
 .foto-icon-close {
