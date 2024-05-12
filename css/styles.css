@@ -606,9 +606,11 @@ body {
   fill: #4d5ae5;
 }
 .icon-name {
+  align-items: center;
+  justify-content: center;
   fill: #2e2f42;
-  width: 12px;
-  height: 12px;
+  width: 18px;
+  height: 24px;
   position: absolute;
   top: 50%;
   left: 16px;
@@ -653,14 +655,15 @@ body {
 .checkbox-form {
   margin-bottom: 24px;
 }
-.input-checkbox:checked + .checkbox-privacy .costum-checkbox {
-  fill: #f4f4fd;
+.input-checkbox:checked + .checkbox-privacy > .costum-checkbox {
   border: none;
   background-color: #404bbf;
+  fill: #ffffff;
 }
-.input-checkbox:focus + .checkbox-privacy .costum-checkbox {
-  outline: 2px solid rgb(0, 0, 255);
+.input-checkbox:focus + .checkbox-privacy > .costum-checkbox {
+  fill: #ffffff;
 }
+
 .checkbox-privacy {
   font-size: 12px;
   line-height: 1.17;
@@ -703,4 +706,8 @@ body {
   border-radius: 4px;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.send-buttom:focus,
+.send-buttom:hover {
+  background-color: #404bbf;
 }
