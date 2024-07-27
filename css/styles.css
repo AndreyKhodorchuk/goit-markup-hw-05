@@ -1,4 +1,4 @@
-ul,
+/* ul,
 ol {
   list-style-type: none;
   margin-bottom: 0;
@@ -34,22 +34,22 @@ body {
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-}
-.page-header {
+} */
+/* .page-header {
   border: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-}
-.page-header-container {
+} */
+/* .page-header-container {
   display: flex;
   justify-content: space-between;
-}
-.heder-logo {
+} */
+/* .heder-logo {
   margin-right: 76px;
   padding-top: 24px;
   padding-bottom: 24px;
-}
-.page-logo {
+} */
+/* .page-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -58,11 +58,11 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-}
-.logo-studio {
+} */
+/* .logo-studio {
   color: #2e2f42;
-}
-.page-navigation {
+} */
+/* .page-navigation {
   display: flex;
   align-items: center;
 }
@@ -121,8 +121,8 @@ body {
 .nav-contact:hover,
 :focus {
   color: #404bbf;
-}
-
+} */
+/* hero */
 .page-introduction {
   background: #2e2f42;
   margin-left: auto;
