@@ -81,3 +81,69 @@ img {
 .burger-icon {
   fill: #2f2f37;
 }
+@media screen and (min-width: 768px) {
+  .btn-open {
+    display: none;
+  }
+
+  .page-menu,
+  .contact {
+    display: flex;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .page-header-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .heder-logo {
+    margin-right: 76px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  .page-navigation {
+    display: flex;
+    align-items: center;
+  }
+  .page-menu {
+    display: flex;
+    gap: 40px;
+  }
+  .nav-menu {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .nav-menu:hover,
+  :focus {
+    color: #404bbf;
+  }
+  .nav-studio {
+    position: relative;
+    color: #404bbf;
+  }
+  .nav-studio::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    border-radius: 2px;
+    width: 100%;
+    height: 4px;
+    background: #404bbf;
+  }
+  .contact {
+    font-style: normal;
+  }
+  .list-contact {
+    display: flex;
+    gap: 40px;
+  }
+}
